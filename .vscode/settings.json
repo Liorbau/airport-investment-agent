@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/apps/api/.venv/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}/apps/api"],
+  "files.exclude": {
+    "**/.venv": true,
+    "**/.cache": true,
+    "**/.ruff_cache": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true
+  },
+  "python.REPL.enableREPLSmartSend": false
+}
