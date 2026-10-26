@@ -1,0 +1,7 @@
+export const ROW_STYLE = 'border-t border-[#262626] py-3 first-of-type:border-t-0'
+export const CODE_STYLE = 'font-mono text-lg font-medium text-white'
+export const RANK_STYLE = 'mr-2 text-[#fc762f]'
+export const NAME_STYLE = 'text-xs text-[#a3a3a3]'
+export const TRACK_STYLE = 'mt-2 h-1 rounded-full bg-[#262626]'
+export const BAR_STYLE = 'h-1 rounded-full bg-[#fc762f]'
+export const NUMBER_STYLE = 'mt-1 font-mono text-xs text-[#d4d4d4]'

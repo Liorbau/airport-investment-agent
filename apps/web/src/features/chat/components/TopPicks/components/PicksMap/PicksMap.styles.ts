@@ -1,0 +1,5 @@
+export const MAP_STYLE = 'mb-3 w-full'
+export const DOT_STYLE = 'fill-[#5c5c5c]'
+export const PICK_STYLE = 'fill-[#fc762f]'
+export const PULSE_STYLE = 'fill-[#fc762f] opacity-60 animate-ping [transform-box:fill-box] origin-center'
+export const LABEL_STYLE = 'fill-white font-mono text-[5px] font-medium'

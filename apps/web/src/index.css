@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: #fafafa;
+  color: #171719;
+}
+
+.answer h1,
+.answer h2,
+.answer h3 {
+  margin: 0.75rem 0 0.25rem;
+  font-weight: 600;
+}
+.answer p {
+  margin: 0.4rem 0;
+}
+.answer ul,
+.answer ol {
+  margin: 0.25rem 0 0.25rem 1.25rem;
+  list-style: disc;
+}
+.answer table {
+  margin: 0.5rem 0;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+.answer th,
+.answer td {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0.35rem 0.75rem 0.35rem 0;
+  text-align: left;
+}
+.answer th {
+  font-weight: 500;
+  color: #6e6e6e;
+}
